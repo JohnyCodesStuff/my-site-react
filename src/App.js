@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ArticleBox from './components/ArticleBox';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ArticleBox title="Tytuł 1" description="Opis 1" />
+      <ArticleBox title="Tytuł 2" description="Opis 2" />
+      <ArticleBox title="Tytuł 3" description="Opis 3" />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App; 
