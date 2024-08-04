@@ -37,7 +37,6 @@ const Article = (props) => {
         <button onClick={addTimer}>Dodaj timer</button>
         <button onClick={changeName}>Zmien imie</button>
         
-       
     </div>
 }
 // dodajemy tak zwane hooki
