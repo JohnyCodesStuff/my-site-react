@@ -4,8 +4,15 @@ import Article from './components/Article';
 import ArticleBox from './components/ArticleBox';
 import Clock from './components/Clock';
 import HandleEvent from './components/HandleEvent';
+import soundbass from "./assets/soundbass.wav"
+
 
 function App() {
+
+  function play() {
+    new Audio(soundbass).play()
+  }   
+
   return (
     <div>
       <Clock />
@@ -15,6 +22,11 @@ function App() {
       <HandleEvent />
       <div>
         <p></p>
+      </div>
+      <div>
+        <button onClick={play}>
+          Włącz BASS
+        </button>
       </div>
     </div>
   )
