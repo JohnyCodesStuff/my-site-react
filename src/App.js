@@ -24,9 +24,11 @@ function App() {
         <p></p>
       </div>
       <div>
+        <p>
         <button onClick={play}>
           Włącz BASS
         </button>
+        </p>
       </div>
     </div>
   )
