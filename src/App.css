@@ -47,3 +47,23 @@ iframe {
     width: 100%;
   }
 }
+
+button {
+  height: 80px;
+  width: 80px;
+  border: solid;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  background-color: aquamarine;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+button:active {
+  background-color: azure;
+}
