@@ -76,7 +76,6 @@ const Clock = () => {
     return (
         <div className="clock">
             {date.toLocaleTimeString()}
-            <button onClick={() => setClicked(true)}>Zmień</button>
         </div>
     )
 }
