@@ -33,14 +33,6 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 iframe {
@@ -60,7 +52,7 @@ button {
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
-  background-color: aquamarine;
+  background-color: rgb(0, 255, 170);
   color: white;
   font-weight: bold;
 }
