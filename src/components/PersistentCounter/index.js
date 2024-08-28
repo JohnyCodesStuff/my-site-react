@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './style.css'
 
 const PersistentCounter = () => {
   // Retrieve the initial value from localStorage, or set it to 0 if not present
@@ -28,8 +29,8 @@ const PersistentCounter = () => {
   return (
     <div id="goodthings">
       <h1>Good Things Counter: {count}</h1>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+      <button id='one' onClick={increment}>+</button>
+      <button id='two' onClick={decrement}>-</button>
       <button onClick={backToZero}>Reset</button>
     </div>
   );

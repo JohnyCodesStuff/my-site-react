@@ -53,7 +53,8 @@ button {
   padding: 10px;
   margin: 10px;
   background-color: rgb(0, 255, 170);
-  color: white;
+  color: black;
+  text-shadow: white 2px;
   font-weight: bold;
 }
 
