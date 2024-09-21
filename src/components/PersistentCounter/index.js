@@ -29,8 +29,8 @@ const PersistentCounter = () => {
   return (
     <div id="goodthings">
       <h1>Good Things Counter: {count}</h1>
-      <button id='one' onClick={increment}>+</button>
-      <button id='two' onClick={decrement}>-</button>
+      <button id='one' onClick={increment}>Add</button>
+      <button id='two' onClick={decrement}>Subtract</button>
       <button onClick={backToZero}>Reset</button>
     </div>
   );

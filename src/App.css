@@ -56,10 +56,13 @@ button {
   color: black;
   text-shadow: white 2px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 button:hover {
   background-color: aqua;
+  transition: 0.5s;
+  transform: scale(1.02);
 }
 
 button:active {
