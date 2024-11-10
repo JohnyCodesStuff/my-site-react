@@ -1,0 +1,20 @@
+#tab-menu {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 10px 0;
+}
+
+#tab-menu a {
+    text-decoration: none;
+    color: #555;
+    padding: 10;
+}
+
+#tab-menu:active {
+    color: aliceblue;
+    border-top: 2px solid #007bff;
+}
