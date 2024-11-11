@@ -1,14 +1,14 @@
 import React from "react";
 import './style.css'
-import { NavLink } from "react-router-dom";
+
 
 
 const TabMenu = () => {
     return (
         <div className="tab-menu" id="tab-menu">
-        <button>Home</button>
-        <button>Calendar</button>
-        <button>Profile</button>
+        <button className="tab">Home</button>
+        <button className="tab">Calendar</button>
+        <button className="tab">Profile</button>
 
         </div>
     )

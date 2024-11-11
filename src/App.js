@@ -5,10 +5,10 @@ import soundbass from "./assets/soundbass.wav"*/
 import Header from './components/Header';
 import PersistentCounter from './components/PersistentCounter';
 import TabMenu from './components/TabMenu';
-import Home from './components/Home';
+/*import Home from './components/Home';
 import Search from './components/Search';
 import Profile from './components/Profile';
-
+*/
 
 
 function App() {

@@ -5,16 +5,36 @@
     bottom: 0;
     width: 100%;
     background-color: darkcyan;
-    padding: 10px 0;
+    padding: 5px 0;
+    height: 10%;
 }
 
 #tab-menu a {
     text-decoration: none;
     color: #555;
-    padding: 10;
+    padding: 5;
 }
 
 #tab-menu:active {
     color: aliceblue;
-    border-top: 2px solid #007bff;
+    
+}
+
+button.tab {
+  background-color: darkcyan;
+  border-radius: 0%;
+  border-width: 0cap;
+  height: 75px;
+  width: 75px;
+  color:  rgb(0, 255, 170);
+}
+
+button.tab:hover {
+    background-color: rgb(83, 129, 129);
+    border-radius: 0%;
+    border-width: 0cap;
+  }
+
+button.tab:active {
+    color: white
 }
